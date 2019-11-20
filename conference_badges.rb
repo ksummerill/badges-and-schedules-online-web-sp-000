@@ -24,6 +24,6 @@ end
 # iterating through your badges and room assignments lists
 def printer(attendees)
   assign_rooms(attendees).each do |line|
-    puts var1
+    puts assign_rooms
   end
 end
