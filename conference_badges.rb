@@ -31,4 +31,5 @@ def printer(array)
   end
   assign_rooms(attendees).each do |room|
     puts assign_rooms(array)
+  end  
 end
