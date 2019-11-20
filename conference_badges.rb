@@ -30,6 +30,6 @@ def printer(array)
     puts line
   end
   assign_rooms(attendees).each do |room|
-    puts assign_rooms(attendees)
+    puts room
   end
 end
