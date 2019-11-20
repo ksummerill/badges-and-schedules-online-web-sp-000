@@ -12,7 +12,6 @@ end
 
 # takes list of speakers and assigns each speaker a room
 # return a list of room assignments with a string
-# speakers are: Edsger, Ada, Charles, Alan, Grace, Linus, and Matz
 def assign_rooms(attendees)
   var1 = []
   attendees.each_with_index do |speaker, index|
