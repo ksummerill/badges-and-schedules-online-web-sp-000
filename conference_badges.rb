@@ -22,8 +22,8 @@ def assign_rooms(attendees)
 end
 
 # iterating through your badges and room assignments lists
-def printer(attendees)
+def printer(array)
   assign_rooms(attendees).each do |line|
-    puts assign_rooms(attendees)
+    puts assign_rooms(array)
   end
 end
