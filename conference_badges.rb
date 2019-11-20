@@ -23,7 +23,7 @@ end
 
 # iterating through your badges and room assignments lists
 def printer(attendees)
-  assign_rooms.each do |line|
+  assign_rooms(attendees).each do |line|
     puts var1
   end
 end
