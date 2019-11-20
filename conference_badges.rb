@@ -26,7 +26,9 @@ end
 # You'll need to iterate over your array of room assignments in order to
 # puts out each individual assignment.
 def printer(array)
-  assign_rooms(attendees).each do |line|
-    puts assign_rooms(array)
+  # assign_rooms(attendees).each do |line|
+  #   puts assign_rooms(array)
+  batch_badge_creator(array).each do |line|
+    puts batch_badge_creator(array)
   end
 end
