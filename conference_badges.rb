@@ -27,6 +27,6 @@ end
 # puts out each individual assignment.
 def printer(array)
   assign_rooms(attendees).each do |line|
-    puts assign_rooms(array).("\n")
+    puts assign_rooms(array)
   end
 end
